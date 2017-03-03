@@ -38,3 +38,4 @@ if __name__ == '__main__':
         data_source(sys.argv[1], sys.argv[2], e)
     except KeyboardInterrupt:
         e.set()
+
