@@ -35,6 +35,7 @@ if __name__ == '__main__':
     import sys
     e = threading.Event()
     try:
-        data_source(sys.argv[1], *sys.argv[2], e)
+        data_source(sys.argv[1], sys.argv[2], e)
     except KeyboardInterrupt:
         e.set()
+
